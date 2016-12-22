@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Admin Paneli";
+}
+<link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+<link href="~/Content/font-awesome.css" rel="stylesheet" />
+<div class="row">
+    <div class="col-sm-12 ">
+        <div class="row margin">
+            <div class="col-sm-6">
+                <a class="btn btn-block btn-default" href="@Url.Action("Index","Users")">
+                    <i class="fa fa-user fa-3x"></i><br> <small>Kullanıcılar</small>
+                </a>
+            </div>
+            <div class="col-sm-6">
+                <a class="btn btn-block btn-default" href="@Url.Action("Index","UserTypes")">
+                    <i class="fa fa-user-plus fa-3x"></i><br> <small>Kullanıcı Yetkileri</small>
+                </a>
+            </div>
+        </div>
+            <div class="row margin">
+                <div class="col-sm-6">
+                    <a class="btn btn-block btn-default" href="@Url.Action("Index","Kitapİlan")">
+                        <i class="fa fa-book fa-3x"></i><br> <small>Kitap İlan</small>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a class="btn btn-block btn-default" href="@Url.Action("Index","KitapDetays")">
+                        <i class="fa fa-list-ul fa-3x"></i><br> <small>Kitap İlan Detayları</small>
+                    </a>
+                </div>
+            </div> 
+            <div class="row margin">
+                <div class="col-sm-6">
+                    <a class="btn btn-block btn-default" href="@Url.Action("Index","Kategoris")">
+                        <i class="fa fa-list-alt fa-3x"></i><br> <small>Kitap Katagorileri</small>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a class="btn btn-block btn-default" href="@Url.Action("Index","Logs")">
+                        <i class=" fa fa-area-chart fa-3x"></i><br> <small>İşlem Kayıtları</small>
+                    </a>
+                </div>
+            </div>
+            <div class="row margin">
+                <div class="col-sm-6">
+                    <a class="btn btn-block btn-default" href="@Url.Action("Index","Sikayets")">
+                        <i class="fa fa-warning fa-3x"></i><br> <small>Kullanıcı Şikayetleri</small>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a class="btn btn-block btn-default" href="@Url.Action("Index","Yorums")">
+                        <i class="fa fa-weixin fa-3x"></i><br> <small>Kullanıcı Yorumları</small>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
